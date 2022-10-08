@@ -9,7 +9,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
+/* Ci dessus: Fonctionne car il y a un div supplémentaire pour centrer le tout */
 
 .header {
     background-color: #1F2937 ;
@@ -19,7 +21,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border : 1px solid red;
+    height: 100px;
+    width: 100%;
+
 
 }
 
@@ -39,6 +43,8 @@ body {
     gap: 20px;
 }
 
+
+
 .top {
     display: flex;
     justify-content: flex-start;
@@ -46,8 +52,8 @@ body {
     background-color: #1F2937 ;
     font-size: 18px;
     color: #e5e7eb;
-    margin: 70px 0px;
-    flex: 1 1 auto;
+    height: 500px;
+
 }
 
 .awesome {
@@ -87,11 +93,12 @@ button {
 
 .random {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 50 500;
+    height: 500px;
 }
+
+
 
 .random h1 {
     font-size: 36px;
@@ -138,4 +145,43 @@ button {
     font-weight: 900;
     text-align: right;
     font-size: 24px;
+}
+
+.cta {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cta-banner {
+    background-color: #3882f6;
+    color: white;
+    flex: 0 0 800px;
+    margin: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-radius: 7px;
+
+}
+
+
+.cta-banner button {
+    border : 2px solid white;
+    color: white;
+    border-radius: 7px;
+    padding: 8px 35px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
 }
