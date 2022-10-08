@@ -1,10 +1,14 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', helvetica, sans-serif;
+
+}
+
+.top-blue {
+    background-color: #1F2937 ;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 }
 
 .header {
@@ -15,6 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border : 1px solid red;
 
 }
 
@@ -64,6 +69,7 @@ h1 {
 button {
     background-color: #3882f6;
     font-size: 18px;
+    padding: 8px 30px;
     color: #e5e7eb;
     font-weight: 900;
     border-radius: 5px ;
@@ -71,7 +77,34 @@ button {
 }
 
 .top-image {
-    background-color: grey;
-    padding: 120px 30px;
+    background-color: #737982;
+    padding: 120px 100px;
     margin-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.random h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.information img {
+    border: 4px solid #3882f6;
+    padding: 80px 40px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
 }
