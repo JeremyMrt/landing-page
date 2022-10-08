@@ -1,23 +1,24 @@
 body {
     font-family: 'Roboto', sans-serif;
-    width: 75%;
-    margin: 0 auto;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
 
-
-header {
+.header {
     background-color: #1F2937 ;
-    background-size: 100%;
     font-size: 24px;
     color: #F9faf8;
     font-weight: 900;
     display: flex;
     justify-content: space-between;
-    padding: 0px;
+    align-items: center;
+
 }
 
-header a {
+.header a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
@@ -25,11 +26,52 @@ header a {
 
 }
 
-header ul {
+.header ul {
     list-style-type: none;
     padding:0;
     margin: 0;
     display: flex;
+    gap: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
-    gap: 24px;
+    background-color: #1F2937 ;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 70px 0px;
+    flex: 1 1 auto;
+}
+
+.awesome {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 450px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9faf8;
+    margin:0;
+}
+
+button {
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 900;
+    border-radius: 5px ;
+    border: none;
+}
+
+.top-image {
+    background-color: grey;
+    padding: 120px 30px;
+    margin-left: 50px;
 }
