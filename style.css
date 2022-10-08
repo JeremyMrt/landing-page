@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', helvetica, sans-serif;
-
+    
 }
 
 .top-blue {
@@ -13,6 +13,8 @@ body {
 }
 /* Ci dessus: Fonctionne car il y a un div supplémentaire pour centrer le tout */
 
+
+
 .header {
     background-color: #1F2937 ;
     font-size: 24px;
@@ -23,7 +25,6 @@ body {
     align-items: center;
     height: 100px;
     width: 100%;
-
 
 }
 
@@ -105,17 +106,15 @@ button {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    margin: 50px;
+    margin-bottom: 50px;
 }
 
 .information {
     display: flex;
-    justify-content: center;
     text-align: center;
     gap: 20px;
-    margin-bottom: 100px;
-
 }
+
 
 .information img {
     border: 4px solid #3882f6;
@@ -159,7 +158,7 @@ button {
 .cta-banner {
     background-color: #3882f6;
     color: white;
-    flex: 0 0 800px;
+    flex: 0 1 52%;
     margin: 80px;
     display: flex;
     justify-content: space-between;
