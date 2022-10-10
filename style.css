@@ -3,6 +3,8 @@ body {
     
 }
 
+/* Part I : Header and Awesome part taken together */
+
 .top-blue {
     background-color: #1F2937 ;
     display: flex;
@@ -91,6 +93,7 @@ button {
     text-decoration: none;
 }
 
+/* Part II : Random information */
 
 .random {
     display: flex;
@@ -99,30 +102,40 @@ button {
     height: 500px;
 }
 
+.white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
 
 .random h1 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
-    text-align: center;
     margin-bottom: 50px;
+    flex: 1;
 }
 
 .information {
     display: flex;
     text-align: center;
     gap: 20px;
+    flex: 1 ;
+    width: 800px ;
 }
 
 
 .information img {
     border: 4px solid #3882f6;
-    padding: 90px 10px;
+    padding: 60px 40px;
     border-radius: 20px;
     color: white;
     text-align: center;
 }
+
+/* Part III : Quote */
 
 .quote {
     background-color: #e5e7eb;
@@ -146,26 +159,28 @@ button {
     font-size: 24px;
 }
 
+
+/* Part IV : Call to action */
+
 .cta {
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+    height: 500px;
 }
+
+
 
 .cta-banner {
     background-color: #3882f6;
     color: white;
-    flex: 0 1 52%;
-    margin: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
     border-radius: 7px;
-
+    width: 850px;
 }
 
 
@@ -175,6 +190,8 @@ button {
     border-radius: 7px;
     padding: 8px 35px;
 }
+
+/* Part V : Footer */
 
 footer {
     background-color: #1F2937;
